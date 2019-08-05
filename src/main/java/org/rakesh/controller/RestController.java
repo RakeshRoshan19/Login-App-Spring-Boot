@@ -19,11 +19,6 @@ public class RestController {
 	@Autowired
 	private UserService userService;
 
-	@GetMapping("/")
-	public String hello() {
-		return "This is home Page";
-	}
-
 	@PostMapping("/add")
 	public void saveUser(User user) {
 		userService.saveUser(user);

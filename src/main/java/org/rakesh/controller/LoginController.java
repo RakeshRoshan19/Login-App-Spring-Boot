@@ -24,8 +24,8 @@ public class LoginController {
 	
 	@Autowired
 	private RestController restController;
-	
-	@RequestMapping("/welcome")
+		
+	@RequestMapping("/")
 	public String welcome(HttpServletRequest request) {
 		request.setAttribute("mode", "MODE_HOME");
 		return "welcomepage.jsp";

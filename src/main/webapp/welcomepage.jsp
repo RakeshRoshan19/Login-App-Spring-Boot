@@ -19,7 +19,7 @@
 <body>
 	<div role="navigation">
 		<div class="navbar navbar-inverse">
-			<a href="/welcome" class="navbar-brand">Home</a>
+			<a href="/" class="navbar-brand">Home</a>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
 					<li><a href="/login">Login</a></li>
@@ -51,14 +51,14 @@
 						<label class="control-label col-md-3">Username</label>
 						<div class="col-md-7">
 							<input type="text" class="form-control" name="userName"
-								value="${user.userName }" />
+								value="${user.userName }" required="required" />
 						</div>
 					</div>
 					<div class="form-group">
 						<label class="control-label col-md-3">First Name</label>
 						<div class="col-md-7">
 							<input type="text" class="form-control" name="firstName"
-								value="${user.firstName }" />
+								value="${user.firstName }" required="required"/>
 						</div>
 					</div>
 					<div class="form-group">
@@ -72,14 +72,14 @@
 						<label class="control-label col-md-3">Email</label>
 						<div class="col-md-7">
 							<input type="email" class="form-control" name="email"
-								value="${user.email }" />
+								value="${user.email }" required="required"/>
 						</div>
 					</div>
 					<div class="form-group">
 						<label class="control-label col-md-3">Password</label>
 						<div class="col-md-7">
 							<input type="password" class="form-control" name="password"
-								value="${user.password }" />
+								value="${user.password }" required="required"/>
 						</div>
 					</div>
 					<div class="form-group ">
@@ -136,14 +136,14 @@
 						<label class="control-label col-md-3">Username</label>
 						<div class="col-md-7">
 							<input type="text" class="form-control" name="userName"
-								value="${user.userName }" />
+								value="${user.userName }" required="required"/>
 						</div>
 					</div>
 					<div class="form-group">
 						<label class="control-label col-md-3">First Name</label>
 						<div class="col-md-7">
 							<input type="text" class="form-control" name="firstName"
-								value="${user.firstName }" />
+								value="${user.firstName }" required="required"/>
 						</div>
 					</div>
 					<div class="form-group">
@@ -157,14 +157,14 @@
 						<label class="control-label col-md-3">Email </label>
 						<div class="col-md-7">
 							<input type="email" class="form-control" name="email"
-								value="${user.email }" />
+								value="${user.email }" required="required"/>
 						</div>
 					</div>
 					<div class="form-group">
 						<label class="control-label col-md-3">Password</label>
 						<div class="col-md-7">
 							<input type="password" class="form-control" name="password"
-								value="${user.password }" />
+								value="${user.password }" required="required"/>
 						</div>
 					</div>
 					<div class="form-group ">
@@ -188,14 +188,14 @@
 						<label class="control-label col-md-3">Username</label>
 						<div class="col-md-7">
 							<input type="text" class="form-control" name="userName"
-								value="${user.userName }" />
+								value="${user.userName }" required="required"/>
 						</div>
 					</div>
 					<div class="form-group">
 						<label class="control-label col-md-3">Password</label>
 						<div class="col-md-7">
 							<input type="password" class="form-control" name="password"
-								value="${user.password }" />
+								value="${user.password }" required="required"/>
 						</div>
 					</div>
 					<div class="form-group ">
